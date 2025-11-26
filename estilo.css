@@ -11,5 +11,64 @@ div#container{
 }
 div#corpo{
     text-align: center;
-    border: 4px solid blue;
+    padding: 40px;
+    float: left;
+    margin-left: 325px;
+    margin-top: 150px;
+    background-color: #1f201e;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+}
+div#corpo h1{
+    font-size: 15pt;
+}
+ 
+div#corpo img#foto{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+div#corpo img#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -100px;
+    margin-right: -60px;
+}
+button#botao1{
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    background-image: linear-gradient(80deg, #000000, #0087f5);
+    padding: 8px 40px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+button#botao2{
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    background-image: linear-gradient(80deg,#ea00ff, #ffae00 );
+    padding: 8px 21px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+button#botao3{
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    background-image: linear-gradient(45deg, #0000ff, #8dc8f8);
+    padding: 8px 30px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
 }
