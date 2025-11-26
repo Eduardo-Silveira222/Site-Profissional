@@ -4,6 +4,9 @@ body{
     background-color: black;
 }
 div#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(-imagens/-fundo.jpg);
     color: white;
     margin: 0px 200px 0px 200px;
@@ -13,8 +16,6 @@ div#corpo{
     text-align: center;
     padding: 40px;
     float: left;
-    margin-left: 325px;
-    margin-top: 150px;
     background-color: #1f201e;
     border-radius: 20px;
     font-family: Arial, sans-serif;
