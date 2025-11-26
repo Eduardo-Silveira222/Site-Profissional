@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+div#container{
+    background-image: url(-imagens/-fundo.jpg);
+    color: white;
+    margin: 0px 200px 0px 200px;
+    height: 800px;
+}
+div#corpo{
+    text-align: center;
+    border: 4px solid blue;
+}
